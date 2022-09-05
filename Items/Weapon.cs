@@ -4,6 +4,7 @@
     {
         public int[] Damage { get; set; } = new int[2];
         public int Bonus { get; set; }
+        public bool Innate { get; set; }
 
         public int DamageDone()
         {
